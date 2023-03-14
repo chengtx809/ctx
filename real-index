@@ -1,0 +1,378 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@chengtx809 
+chengtx809
+/
+chengtx-navigation
+Public template
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+chengtx-navigation/index.html
+@chengtx809
+chengtx809 Update index.html
+Latest commit 4f44e43 5 hours ago
+ History
+ 1 contributor
+332 lines (320 sloc)  17 KB
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>成同学导航</title>
+    <link rel="shortcut icon" href="favcion.ico" />
+    <link rel="stylesheet" href=" css/iconfont.css">
+    <link rel="stylesheet" href="../plug-in/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <aside class="left-bar" id="leftBar">
+            <div class="title">
+                <p>成同学导航</p>
+            </div>
+            <nav class="nav">
+                <div class="item active"><a href=""><i class="iconfont icon-daohang2"></i>成同学导航</a><i class="line"></i></div>
+                <ul class="nav-item" id="navItem">
+                    <li><a href="#xxyx" class="active"><i class="iconfont icon-github"></i>休闲游戏</a></li>
+                    <li><a href="#sjyx"><i class="iconfont icon-github"></i>射击游戏</a></li>
+                    <li><a href="#yyyx"><i class="iconfont icon-github"></i>音乐游戏</a></li>
+                    <li><a href="#jdyx"><i class="iconfont icon-github"></i>经典游戏</a></li>
+                    <li><a href="#shyx"><i class="iconfont icon-github"></i>沙盒游戏</a></li>
+                    <li><a href="#jyem"><i class="iconfont icon-github"></i>极域噩梦</a></li>
+                    <li class="download"><a href="https://space.bilibili.com/515883008"><i class="iconfont icon-github"></i>作者bilibili主页</a></li>
+                    <li class="download"><a href="https://github.com/chengtx809/ctx"><i class="iconfont icon-github"></i>github项目地址</a></li>
+                </ul>
+                <div class="item comment"><a target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAADlyw8dUQkhOTlUzR0M4SFJNT0FESDZGRTVGMldMWi4u"><i class="iconfont icon-liuyan"></i>反馈</a></div>
+            </nav>
+        </aside>
+        <section class="main">
+            <div id="mainContent">
+                <!-- 手机端菜单 -->
+                <div id="menu-box">
+                   <div id="menu">
+                       <input type="checkbox" id="menu-form">
+                       <label for="menu-form" class="menu-spin">
+                        <div class="line diagonal line-1"></div>
+                        <div class="line horizontal"></div>
+                        <div class="line diagonal line-2"></div>
+                      </label>
+                    </div>
+                </div>
+                <!-- 休闲游戏 -->
+                <div class="box">
+                    <a href="#" name="xxyx"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-github"></i>休闲游戏</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="http://hole-io.io/">
+                            <div class="item">
+                                <div class="logo"><img src="img/hole.jfif" alt="黑洞大作战"> 黑洞大作战</div>
+                                <div class="desc">一时兴起的小游戏</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://hex.frvr.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/hex FRVR.webp" alt="Hex"> Hex</div>
+                                <div class="desc">类似于俄罗斯方块的蜂窝消除小游戏</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="http://slither.io/">
+                            <div class="item">
+                                <div class="logo"><img src="img/slither.png" alt="slither"> slither</div>
+                                <div class="desc">在线多人贪吃蛇</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://snake.googlemaps.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/googlemaps snake.ico" alt="谷歌地图贪食蛇"> 谷歌地图贪食蛇</div>
+                                <div class="desc">结合了地图元素的像素画风贪吃蛇</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://soccer.frvr.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/Soccer FRVR.png" alt="Soccer"> Soccer</div>
+                                <div class="desc">指尖足球射门</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://lines.frvr.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/Line FRVR.png" alt="Line"> Line</div>
+                                <div class="desc">益智连线小游戏</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://jewels.frvr.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/jewels.png" alt="Jewels"> Jewels</div>
+                                <div class="desc">宝石消消乐</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 射击游戏 -->
+                <div class="box">
+                    <a href="#" name="sjyx"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-github"></i>射击游戏</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://venge.io/">
+                            <div class="item">
+                                <div class="logo"><img src="img/venge.png" alt="venge"> venge</div>
+                                <div class="desc">一个含有多种模式的射击游戏</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://miniroyale2.io/">
+                            <div class="item">
+                                <div class="logo"><img src="img/miniroyale.png" alt="miniroyale"> miniroyale</div>
+                                <div class="desc">类似venge，制作更精良</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 音乐游戏 -->
+                <div class="box">
+                    <a href="" name="yyyx"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-github"></i>音乐游戏</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://www.beatstage.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/beatstage.ico" alt="beatstage"> beatstage</div>
+                                <div class="desc">一个拥有许多玩家自制铺面的传统下落式音游</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 经典游戏 -->
+                <div class="box">
+                    <a href="" name="jdyx"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-github"></i>经典游戏</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="http://www.minesweeper.cn/">
+                            <div class="item">
+                                <div class="logo"><img src="img/minesweeper.ico" alt="扫雷">扫雷</div>
+                                <div class="desc">经典扫雷网页版</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://www.yikm.net/">
+                            <div class="item">
+                                <div class="logo"><img src="img/yikm.png" alt="小霸王其乐无穷">小霸王其乐无穷</div>
+                                <div class="desc">拥有许多FC、街机、GBA经典游戏</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="http://guozhivip.com/fun/2048/">
+                            <div class="item">
+                                <div class="logo"><img src="img/guozhi.ico" alt="2048">2048</div>
+                                <div class="desc">经典2048</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="http://guozhivip.com/fun/els/">
+                            <div class="item">
+                                <div class="logo"><img src="img/guozhi.ico" alt="俄罗斯方块">俄罗斯方块</div>
+                                <div class="desc">经典俄罗斯方块</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 沙盒游戏-->
+                <div class="box">
+                    <a href="" name="shyx"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-github"></i>沙盒游戏</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://smgoro.github.io/WebMC/">
+                            <div class="item">
+                                <div class="logo"><img src="img/minecraft.jpg" alt="WebMC"> WebMC</div>
+                                <div class="desc">单人创造版MC，体验一般</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://classic.minecraft.net/">
+                            <div class="item">
+                                <div class="logo"><img src="img/minecraft.jpg" alt="minecraft classic"> minecraft classic</div>
+                                <div class="desc">官方推出的十周年纪念版初代MC，支持联机</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://probablykam.github.io/eaglercraft/">
+                            <div class="item">
+                                <div class="logo"><img src="img/minecraft.jpg" alt="eaglercraft"> eaglercraft</div>
+                                <div class="desc">支持单人游戏，极致还原原版MC！（仅支持英文）</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://ws.imc.re/eaglerx/">
+                            <div class="item">
+                                <div class="logo"><img src="img/eaglerx.ico" alt="eaglerx"> eaglerx</div>
+                                <div class="desc">支持加入小游戏服务器，极致还原原版MC！（支持中文）</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 极域噩梦 -->
+                <div class="box">
+                    <a href="" name="jyem"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-github"></i>极域噩梦（网盘密码1234）</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://chengtx.lanzouf.com/irHfY0n4i4kf">
+                            <div class="item">
+                                <div class="no-logo">去除控制</div>
+                                <div class="desc">极域克星！</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://chengtx.lanzouf.com/b03ptlv3i">
+                            <div class="item">
+                                <div class="no-logo">注册表管理器</div>
+                                <div class="desc">替代被禁用的注册表管理器</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://down7.huorong.cn/sysdiag-full-5.0.73.2-2023.02.20.1.exe">
+                            <div class="item">
+                                <div class="no-logo">火绒</div>
+                                <div class="desc">万能火绒</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://chengtx.lanzouf.com/i6bWH0q1jjef">
+                            <div class="item">
+                                <div class="no-logo">YDArk</div>
+                                <div class="desc">类似火绒剑的硬核工具</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://chengtx.lanzouf.com/b03ptm07c">
+                            <div class="item">
+                                <div class="no-logo">极域教师端</div>
+                                <div class="desc">老师不在，我就是老师</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://chengtx.lanzouf.com/ihlnc0mp5god">
+                            <div class="item">
+                                <div class="no-logo">极域学生端</div>
+                                <div class="desc">别把学生端玩没了</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://snapdrop.net/">
+                            <div class="item">
+                                <div class="no-logo">Snapdrop</div>
+                                <div class="desc">和同学传文件</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://gitee.com/chengtx007/tuokong/blob/master/README.md">
+                            <div class="item">
+                                <div class="no-logo">脱控教程</div>
+                                <div class="desc">本站作者亲手编写的脱控教程（秒杀极域和小助手！）</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="copyright">
+                        <div>
+                            Copyright © 2023 - 2050
+                            <a href="https://github.com/chengtx809/ctx">成同学导航</a>
+                        </div>
+                    </div>
+                </footer>
+                <div id="fixedBar"><svg class="Zi Zi--BackToTop" title="回到顶部" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M16.036 19.59a1 1 0 0 1-.997.995H9.032a.996.996 0 0 1-.997-.996v-7.005H5.03c-1.1 0-1.36-.633-.578-1.416L11.33 4.29a1.003 1.003 0 0 1 1.412 0l6.878 6.88c.782.78.523 1.415-.58 1.415h-3.004v7.005z"></path></svg></div>
+        </section>
+        <script src="js/jquery.js"></script>
+        <script>
+        var oMenu = document.getElementById('menu');
+        var oLeftBar = document.getElementById('leftBar');
+        var menuFrom = document.getElementById('menu-form');
+
+        oMenu.onclick = function() {
+            if (oLeftBar.offsetLeft == 0) {
+                oLeftBar.style.left = -249 + 'px';
+            }
+            else {
+                oLeftBar.style.left = 0;
+            }
+        }
+
+
+        // 监听页面宽度变化
+        window.onresize = function() {
+            judgeWidth();
+            // console.log(document.documentElement.clientWidth);
+        };
+
+        // 判断页面宽度
+        function judgeWidth() {
+            if (document.documentElement.clientWidth > 481) {
+                oLeftBar.style.left = 0;
+            } else {
+                oLeftBar.style.left = -249 + 'px';
+            }
+        }
+
+
+        var oNavItem = document.getElementById('navItem');
+        var aA = oNavItem.getElementsByTagName('a');
+        for (var i = 0; i < aA.length; i++) {
+            aA[i].onclick = function() {
+                for (var j = 0; j < aA.length; j++) {
+                    aA[j].className = '';
+                }
+                this.className = 'active';
+                if (oLeftBar.offsetLeft == 0) {
+                    if (document.documentElement.clientWidth <= 481) {
+                        oLeftBar.style.left = -249 + 'px';
+                        menuFrom.checked = false;
+
+                    }
+                }
+            }
+        }
+
+
+        $(window).scroll(function() {
+            if($(window).scrollTop() >= 200){
+                $('#fixedBar').fadeIn(300);
+            }else{
+                $('#fixedBar').fadeOut(300);
+            }
+        });
+        $('#fixedBar').click(function() {
+            $('html,body').animate({scrollTop:'0px'},800);
+        })
+        </script>
+</body>
+
+</html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+chengtx-navigation/index.html at main · chengtx809/chengtx-navigation
