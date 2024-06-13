@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -9,11 +8,9 @@
     <link rel="stylesheet" href=" css/iconfont.css">
     <link rel="stylesheet" href="../plug-in/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6805575897161060"
      crossorigin="anonymous"></script>
 </head>
-
 <body>
     <div class="container" id="container">
         <aside class="left-bar" id="leftBar">
@@ -51,7 +48,12 @@
                       </label>
                     </div>
                 </div>
-                <h2 class="text-3xl font-medium text-center my-4 text-blue-500">成同学导航站-致力于分享有趣的小游戏🎉</h2>
+                <!-- 休闲游戏 -->
+                <div class="box">
+                    <a href="#" name=" "></a>
+                    <div class="sub-category">
+                        <div></i>😉成同学导航站-致力于分享有趣的小游戏🎉</div>
+                    </div>
                 <!-- 休闲游戏 -->
                 <div class="box">
                     <a href="#" name="xxyx"></a>
@@ -188,6 +190,17 @@
                             </div>
                         </a>
                     </div>
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
                 </div>
                 <!-- 竞速游戏 -->
                 <div class="box">
@@ -417,14 +430,12 @@
                     </div>
                 </footer>
                 <div id="fixedBar"><svg class="Zi Zi--BackToTop" title="回到顶部" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M16.036 19.59a1 1 0 0 1-.997.995H9.032a.996.996 0 0 1-.997-.996v-7.005H5.03c-1.1 0-1.36-.633-.578-1.416L11.33 4.29a1.003 1.003 0 0 1 1.412 0l6.878 6.88c.782.78.523 1.415-.58 1.415h-3.004v7.005z"></path></svg></div>
-            </div>
         </section>
         <script src="js/jquery.js"></script>
         <script>
         var oMenu = document.getElementById('menu');
         var oLeftBar = document.getElementById('leftBar');
         var menuFrom = document.getElementById('menu-form');
-
         oMenu.onclick = function() {
             if (oLeftBar.offsetLeft == 0) {
                 oLeftBar.style.left = -249 + 'px';
@@ -433,14 +444,11 @@
                 oLeftBar.style.left = 0;
             }
         }
-
-
         // 监听页面宽度变化
         window.onresize = function() {
             judgeWidth();
             // console.log(document.documentElement.clientWidth);
         };
-
         // 判断页面宽度
         function judgeWidth() {
             if (document.documentElement.clientWidth > 481) {
@@ -449,8 +457,6 @@
                 oLeftBar.style.left = -249 + 'px';
             }
         }
-
-
         var oNavItem = document.getElementById('navItem');
         var aA = oNavItem.getElementsByTagName('a');
         for (var i = 0; i < aA.length; i++) {
@@ -463,13 +469,10 @@
                     if (document.documentElement.clientWidth <= 481) {
                         oLeftBar.style.left = -249 + 'px';
                         menuFrom.checked = false;
-
                     }
                 }
             }
         }
-
-
         $(window).scroll(function() {
             if($(window).scrollTop() >= 200){
                 $('#fixedBar').fadeIn(300);
